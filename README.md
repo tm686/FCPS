@@ -8,6 +8,9 @@ For some CTF machines, Bloodhound doesn't show ForceChangePassword rights over o
 In this blog by Juggarnaut-sec, the methodology is explained further "our current user “vcreed” is a member of that group. Very often, when we find an “IT support” type of custom group (or user) with Help Desk, Service Desk, Support, IT, etc. in their name, there’s a pretty good chance that the group / user will have delegate privileges that allow them to force a password reset" https://juggernaut-sec.com/ad-recon-msrpc-over-smb/#Manually_Enumerating_Users_Groups_and_More_%E2%80%93_rpcclient
 
 ```
+python3 ~/Tools/FCPS.py -d administrator.htb -u 'Olivia' -p 'ichlie' -i 10.10.11.42 -f users.txt -n 'ichlie'
+python3 ~/Tools/FCPS.py -d administrator.htb -u 'Olivia' -p 'ichlie' -i 10.10.11.42 -f users.txt -n 'ichlie'
+
 Usage: FCPS.py [-h] -d DOMAIN -u CONTROLLED_USER -p CONTROLLED_USER_PASSWORD -i DOMAIN_CONTROLLER_IP -f
                USERNAME_LIST -n NEW_PASSWORD
 
