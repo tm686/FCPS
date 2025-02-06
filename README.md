@@ -1,4 +1,5 @@
 # FCPS
+ForceChangePasswordSpray
 
 This tool allows the user to spray credentials to test for ForceChangePassword rights over other users in the Username list.
 First, gather a username list by using enum4linux, impacket-GetADUsers, etc.
